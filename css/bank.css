@@ -1,0 +1,27 @@
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+.account-update{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 10px;
+}
+.deposit-section{
+    background-color: rgb(37, 86, 177);
+    border-radius: 10px;
+}
+.withdraw-section{
+    background-color: rgb(9, 196, 49);
+    border-radius: 10px;
+}
+.balance-section{
+    background-color: rgb(230, 49, 214);
+    border-radius: 10px;
+}
+.deposit-withdraw-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 10px;
+    color: white;
+}
